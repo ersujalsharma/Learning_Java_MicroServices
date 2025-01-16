@@ -1,4 +1,4 @@
-package assingment6.staticKeywords;
+package assignment6.staticKeywords;
 
 class StaticClass{
     static int a;
