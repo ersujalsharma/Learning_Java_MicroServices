@@ -30,8 +30,8 @@ public class CandidateService {
 	public String[] getGradesForAllCandidates() {
 		CandidateReport[] candidateReports = candidateDAO.getAllCandidates();
 		String arr[] = new String[candidateReports.length];
-		for(int i=0;i<candidateReports.length;i++){
-			arr[i] = candidateReports[i].getCandidateId()+":"+calculateGrade(candidateReports[i]);
+		for (int i = 0; i < candidateReports.length; i++) {
+			arr[i] = candidateReports[i].getCandidateId() + ":" + calculateGrade(candidateReports[i]);
 		}
 		return arr;
 	}
