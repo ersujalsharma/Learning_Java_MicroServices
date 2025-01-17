@@ -20,7 +20,7 @@ public class CandidateService {
 		if (candidateReportTO.getResult() == 'F') return "NA";
 		int avg = (candidateReportTO.getMark1()+candidateReportTO.getMark2()+candidateReportTO.getMark3())/3;
 		if(avg>=85) return "A";
-		if(avg<85 && avg>=75){
+		if(avg>=75){
 			return "B";
 		}
 		return "C";
