@@ -38,17 +38,18 @@ public class CandidateServiceImpl implements CandidateService {
 	
 	public String calculateGrade(CandidateReport candidateReportTO) {
 		String grade = null;
-		if (candidateReportTO.getResult() == 'F') {
-			grade = "NA";
-		} else {
-			float average = (candidateReportTO.getMark1() + candidateReportTO.getMark2() + candidateReportTO.getMark3()) / (float)3;
-			if (average >= 85.0)
-				grade = "A";
-			else if (average >= 75.0 && average < 85.0)
-				grade = "B";
-			else 
-				grade = "C";
-		}
+//		if (candidateReportTO.getResult() == 'F') {
+//			grade = "NA";
+//		} else {
+//			float average = (candidateReportTO.getMark1() + candidateReportTO.getMark2() + candidateReportTO.getMark3()) / (float)3;
+//			if (average >= 85.0)
+//				grade = "A";
+//			else if (average >= 75.0 && average < 85.0)
+//				grade = "B";
+//			else
+//				grade = "C";
+//		}
+		grade = candidateReportTO.getResult() == 'F' ? "NA" : ((candidateReportTO.getMark1() + candidateReportTO.getMark2() + candidateReportTO.getMark3()) / (float)3 >= 85.0 ? "A" : ((candidateReportTO.getMark1() + candidateReportTO.getMark2() + candidateReportTO.getMark3()) / (float)3 >= 75.0 ? "B" : "C"));
 		return grade;
 	}
 
