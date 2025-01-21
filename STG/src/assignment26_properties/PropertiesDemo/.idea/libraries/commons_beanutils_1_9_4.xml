@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="commons-beanutils-1.9.4">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Downloads/PropertiesJars/PropertiesJars/commons-beanutils-1.9.4.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/PropertiesJars/PropertiesJars/commons-collections4-4.4.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/PropertiesJars/PropertiesJars/commons-configuration2-2.7.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/PropertiesJars/PropertiesJars/commons-lang3-3.10.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/PropertiesJars/PropertiesJars/commons-logging-1.2.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/PropertiesJars/PropertiesJars/commons-text-1.8.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
