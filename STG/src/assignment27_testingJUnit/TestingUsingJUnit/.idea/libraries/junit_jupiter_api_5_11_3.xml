@@ -1,0 +1,20 @@
+<component name="libraryTable">
+  <library name="junit-jupiter-api_5.11.3">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.p2/pool/plugins/junit-jupiter-api_5.11.3.jar!/" />
+      <root url="jar://$USER_HOME$/.p2/pool/plugins/junit-jupiter-engine_5.11.3.jar!/" />
+      <root url="jar://$USER_HOME$/.p2/pool/plugins/junit-jupiter-migrationsupport_5.11.3.jar!/" />
+      <root url="jar://$USER_HOME$/.p2/pool/plugins/junit-jupiter-params_5.11.3.jar!/" />
+      <root url="jar://$USER_HOME$/.p2/pool/plugins/junit-platform-commons_1.11.3.jar!/" />
+      <root url="jar://$USER_HOME$/.p2/pool/plugins/junit-platform-engine_1.11.3.jar!/" />
+      <root url="jar://$USER_HOME$/.p2/pool/plugins/junit-platform-launcher_1.11.3.jar!/" />
+      <root url="jar://$USER_HOME$/.p2/pool/plugins/junit-platform-runner_1.11.3.jar!/" />
+      <root url="jar://$USER_HOME$/.p2/pool/plugins/junit-platform-suite-api_1.11.3.jar!/" />
+      <root url="jar://$USER_HOME$/.p2/pool/plugins/junit-platform-suite-commons_1.11.3.jar!/" />
+      <root url="jar://$USER_HOME$/.p2/pool/plugins/junit-platform-suite-engine_1.11.3.jar!/" />
+      <root url="jar://$USER_HOME$/.p2/pool/plugins/junit-vintage-engine_5.11.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
