@@ -6,10 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Demo2_Ioc_Container" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="AcademyDay6_ToTrainee" target="21" />
-    </bytecodeTargetLevel>
   </component>
 </project>

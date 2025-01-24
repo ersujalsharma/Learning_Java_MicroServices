@@ -1,0 +1,16 @@
+
+05-Jul-2023 10:31:04 ERROR - Service.WRONG_CREDENTIALS
+com.sujal.exception.BankException: Service.WRONG_CREDENTIALS
+	at com.sujal.service.CustomerLoginServiceImpl.authenticateCustomer(CustomerLoginServiceImpl.java:26) [classes/:?]
+	at com.sujal.controller.CustomerLoginController.authenticateCustomer(CustomerLoginController.java:17) [classes/:?]
+	at com.sujal.ui.UserInterface.main(UserInterface.java:32) [classes/:?]
+08-Apr-2024 15:09:23 ERROR - Service.WRONG_CREDENTIALS
+com.sujal.exception.BankException: Service.WRONG_CREDENTIALS
+	at com.sujal.service.CustomerLoginServiceImpl.authenticateCustomer(CustomerLoginServiceImpl.java:26) [classes/:?]
+	at com.sujal.controller.CustomerLoginController.authenticateCustomer(CustomerLoginController.java:17) [classes/:?]
+	at com.sujal.ui.UserInterface.main(UserInterface.java:32) [classes/:?]
+26-Sep-2024 09:38:27 ERROR - Service.WRONG_CREDENTIALS
+com.sujal.exception.BankException: Service.WRONG_CREDENTIALS
+	at com.sujal.service.CustomerLoginServiceImpl.authenticateCustomer(CustomerLoginServiceImpl.java:26) [classes/:?]
+	at com.sujal.controller.CustomerLoginController.authenticateCustomer(CustomerLoginController.java:17) [classes/:?]
+	at com.sujal.ui.UserInterface.main(UserInterface.java:32) [classes/:?]
