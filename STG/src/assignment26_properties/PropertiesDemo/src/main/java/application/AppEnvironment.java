@@ -10,7 +10,7 @@ public class AppEnvironment {
 
 		PropertiesConfiguration config = null;
 		Configurations configurations = new Configurations();
-		config = configurations.properties("configuration.properties");
+		config = configurations.properties("classpath:configuration.properties");
 		// Fetching all the key-value pairs from the properties file
 		System.out.println("---- Fetching all the key value pairs ----");
 		Iterator<String> keys = config.getKeys();

@@ -7,7 +7,7 @@ import org.springframework.context.annotation.PropertySource;
 
 
 @Configuration
-@PropertySource("classpath:messages.properties")
+@PropertySource("file:src/main/resources/messages.properties")
 public class SpringConfig {
 	
 }
