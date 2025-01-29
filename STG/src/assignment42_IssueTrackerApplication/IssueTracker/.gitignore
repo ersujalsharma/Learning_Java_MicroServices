@@ -1,0 +1,8 @@
+log/
+bin/
+target/
+
+*.json
+
+.factorypath
+.settings/

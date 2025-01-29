@@ -1,0 +1,17 @@
+29-Jan-2025 20:02:04 ERROR - Service.INVALID_ISSUES
+29-Jan-2025 20:02:04 ERROR - Validator.INVALID_BRAND
+29-Jan-2025 20:02:04 ERROR - Validator.INVALID_CONTACT_NUMBER
+29-Jan-2025 20:18:29 ERROR - Service.NO_RECORDS_FOUND
+29-Jan-2025 21:17:52 ERROR - Service.NO_RECORDS_FOUND
+29-Jan-2025 21:30:17 ERROR - Service.INVALID_ISSUES
+29-Jan-2025 21:30:17 ERROR - Validator.INVALID_BRAND
+29-Jan-2025 21:30:17 ERROR - Validator.INVALID_CONTACT_NUMBER
+29-Jan-2025 21:32:11 ERROR - Sorry, we do not provide that service.
+29-Jan-2025 21:32:11 ERROR - Validator.INVALID_BRAND
+29-Jan-2025 21:32:11 ERROR - Validator.INVALID_CONTACT_NUMBER
+29-Jan-2025 21:33:41 ERROR - Sorry, we do not provide that service.
+29-Jan-2025 21:33:41 ERROR - Sorry! we do not provide service for this brand
+29-Jan-2025 21:33:41 ERROR - Please provide a valid contact number
+30-Jan-2025 01:14:28 ERROR - Sorry, we do not provide that service.
+30-Jan-2025 01:14:28 ERROR - Sorry! we do not provide service for this brand
+30-Jan-2025 01:14:28 ERROR - Please provide a valid contact number
