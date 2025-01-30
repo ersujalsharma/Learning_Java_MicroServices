@@ -17,11 +17,11 @@ public class LoggingAspect {
 	private static final Logger LOGGER = LogManager.getLogger(LoggingAspect.class);
 	@AfterThrowing(pointcut = "execution(* com.sujal.repository.MovieRepositoryImpl.*(..))", throwing = "exception")
 	public void logRepositoryException(Exception exception) {
-		LOGGER.error(exception.getMessage());
+		LOGGER.error(environment.getProperty(exception.getMessage()));
 	}
 	@AfterThrowing(pointcut = "execution(* com.sujal.service.MovieServiceImpl.*(..))", throwing = "exception")
 	public void logServiceException(Exception exception) {
-		LOGGER.error(exception.getMessage());
+		LOGGER.error(environment.getProperty(exception.getMessage()));
 	}
 
 }
