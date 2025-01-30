@@ -1,0 +1,17 @@
+Service.WRONG_CREDENTIALS=Login denied. Invalid credentials.
+SUCCESS=Employee logged in successfully!!
+
+
+# Logging Level
+logging.level.com.sujal.service=ERROR
+logging.level.com.sujal=ERROR
+
+# Logging pattern for the console
+logging.pattern.console={yyyy-MM-dd HH:mm:ss} %-5level %msg%n
+
+# Logging pattern for file
+logging.pattern.file=%d{yyyy-MM-dd HH:mm:ss} %-5level %msg%n
+
+# Logging File
+logging.file.name=test.log
+logging.file.path=logs/test.log

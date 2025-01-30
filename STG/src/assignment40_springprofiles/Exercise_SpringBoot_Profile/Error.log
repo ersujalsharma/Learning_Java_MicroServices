@@ -1,0 +1,8 @@
+2025-01-30 23:27:09 INFO  Starting DemoSpringBootLoggingApplication using Java 23.0.1 with PID 13196 (D:\Study Material\Development\JAVA_MICROSERVICES_FULLSTACK\Learning_Java_MicroServices\STG\src\assignment40_springprofiles\Exercise_SpringBoot_Profile\target\classes started by sujal in D:\Study Material\Development\JAVA_MICROSERVICES_FULLSTACK\Learning_Java_MicroServices\STG\src\assignment40_springprofiles\Exercise_SpringBoot_Profile)
+2025-01-30 23:27:09 INFO  The following 1 profile is active: "test"
+2025-01-30 23:27:10 INFO  Started DemoSpringBootLoggingApplication in 1.084 seconds (process running for 1.537)
+2025-01-30 23:27:10 INFO  Employee logged in successfully!!
+2025-01-30 23:32:15 INFO  Starting DemoSpringBootLoggingApplication using Java 23.0.1 with PID 16932 (D:\Study Material\Development\JAVA_MICROSERVICES_FULLSTACK\Learning_Java_MicroServices\STG\src\assignment40_springprofiles\Exercise_SpringBoot_Profile\target\classes started by sujal in D:\Study Material\Development\JAVA_MICROSERVICES_FULLSTACK\Learning_Java_MicroServices\STG\src\assignment40_springprofiles\Exercise_SpringBoot_Profile)
+2025-01-30 23:32:15 INFO  The following 1 profile is active: "test"
+2025-01-30 23:32:15 INFO  Started DemoSpringBootLoggingApplication in 1.329 seconds (process running for 2.356)
+2025-01-30 23:32:15 INFO  Employee logged in successfully!!
