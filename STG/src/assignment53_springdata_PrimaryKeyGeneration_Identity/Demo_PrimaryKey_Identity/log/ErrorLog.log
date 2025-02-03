@@ -1,0 +1,56 @@
+02-Feb-2025 15:07:03 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+02-Feb-2025 15:07:03 INFO - Finished Spring Data repository scanning in 46 ms. Found 1 JPA repository interface.
+02-Feb-2025 15:07:04 INFO - HikariPool-1 - Starting...
+02-Feb-2025 15:07:04 INFO - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1fd7a37
+02-Feb-2025 15:07:04 INFO - HikariPool-1 - Start completed.
+02-Feb-2025 15:07:04 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+02-Feb-2025 15:07:05 INFO - HHH000412: Hibernate ORM core version 6.4.4.Final
+02-Feb-2025 15:07:05 INFO - HHH000026: Second-level cache disabled
+02-Feb-2025 15:07:05 INFO - No LoadTimeWeaver setup: ignoring JPA class transformer
+02-Feb-2025 15:07:06 INFO - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+02-Feb-2025 15:07:06 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+02-Feb-2025 15:07:06 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+02-Feb-2025 15:07:06 INFO - HikariPool-1 - Shutdown initiated...
+02-Feb-2025 15:07:06 INFO - HikariPool-1 - Shutdown completed.
+02-Feb-2025 15:08:57 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+02-Feb-2025 15:08:57 INFO - Finished Spring Data repository scanning in 39 ms. Found 1 JPA repository interface.
+02-Feb-2025 15:08:58 INFO - HikariPool-1 - Starting...
+02-Feb-2025 15:08:58 INFO - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@e700eba
+02-Feb-2025 15:08:58 INFO - HikariPool-1 - Start completed.
+02-Feb-2025 15:08:58 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+02-Feb-2025 15:08:58 INFO - HHH000412: Hibernate ORM core version 6.4.4.Final
+02-Feb-2025 15:08:58 INFO - HHH000026: Second-level cache disabled
+02-Feb-2025 15:08:59 INFO - No LoadTimeWeaver setup: ignoring JPA class transformer
+02-Feb-2025 15:08:59 INFO - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+02-Feb-2025 15:08:59 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+02-Feb-2025 15:09:00 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+02-Feb-2025 15:09:00 INFO - HikariPool-1 - Shutdown initiated...
+02-Feb-2025 15:09:00 INFO - HikariPool-1 - Shutdown completed.
+02-Feb-2025 15:10:04 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+02-Feb-2025 15:10:04 INFO - Finished Spring Data repository scanning in 40 ms. Found 1 JPA repository interface.
+02-Feb-2025 15:10:05 INFO - HikariPool-1 - Starting...
+02-Feb-2025 15:10:05 INFO - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5a90265a
+02-Feb-2025 15:10:05 INFO - HikariPool-1 - Start completed.
+02-Feb-2025 15:10:05 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+02-Feb-2025 15:10:05 INFO - HHH000412: Hibernate ORM core version 6.4.4.Final
+02-Feb-2025 15:10:05 INFO - HHH000026: Second-level cache disabled
+02-Feb-2025 15:10:05 INFO - No LoadTimeWeaver setup: ignoring JPA class transformer
+02-Feb-2025 15:10:06 INFO - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+02-Feb-2025 15:10:06 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+02-Feb-2025 15:10:07 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+02-Feb-2025 15:10:07 INFO - HikariPool-1 - Shutdown initiated...
+02-Feb-2025 15:10:07 INFO - HikariPool-1 - Shutdown completed.
+02-Feb-2025 15:10:35 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+02-Feb-2025 15:10:35 INFO - Finished Spring Data repository scanning in 40 ms. Found 1 JPA repository interface.
+02-Feb-2025 15:10:36 INFO - HikariPool-1 - Starting...
+02-Feb-2025 15:10:36 INFO - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1fd7a37
+02-Feb-2025 15:10:36 INFO - HikariPool-1 - Start completed.
+02-Feb-2025 15:10:36 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+02-Feb-2025 15:10:36 INFO - HHH000412: Hibernate ORM core version 6.4.4.Final
+02-Feb-2025 15:10:36 INFO - HHH000026: Second-level cache disabled
+02-Feb-2025 15:10:37 INFO - No LoadTimeWeaver setup: ignoring JPA class transformer
+02-Feb-2025 15:10:37 INFO - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+02-Feb-2025 15:10:37 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+02-Feb-2025 15:10:38 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+02-Feb-2025 15:10:38 INFO - HikariPool-1 - Shutdown initiated...
+02-Feb-2025 15:10:38 INFO - HikariPool-1 - Shutdown completed.

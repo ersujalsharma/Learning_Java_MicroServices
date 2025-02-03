@@ -1,0 +1,239 @@
+12-Jul-2020 13:10:20 INFO - Starting ICricketApplication on MYSHEC259041L with PID 61424 (C:\Users\sanath.shetty\Desktop\SpringDataWksp_Java11\ICricket_Impl\target\classes started by Sanath.Shetty in C:\Users\sanath.shetty\Desktop\SpringDataWksp_Java11\ICricket_Impl)
+12-Jul-2020 13:10:20 INFO - No active profile set, falling back to default profiles: default
+12-Jul-2020 13:10:22 INFO - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+12-Jul-2020 13:10:22 INFO - Finished Spring Data repository scanning in 143ms. Found 1 JPA repository interfaces.
+12-Jul-2020 13:10:23 INFO - Initializing ExecutorService 'applicationTaskExecutor'
+12-Jul-2020 13:10:23 INFO - HikariPool-1 - Starting...
+12-Jul-2020 13:10:25 INFO - HikariPool-1 - Start completed.
+12-Jul-2020 13:10:25 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+12-Jul-2020 13:10:25 INFO - HHH000412: Hibernate ORM core version 5.4.17.Final
+12-Jul-2020 13:10:25 INFO - Triggering deferred initialization of Spring Data repositories…
+12-Jul-2020 13:10:26 INFO - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+12-Jul-2020 13:10:26 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+12-Jul-2020 13:10:28 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+12-Jul-2020 13:10:28 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+12-Jul-2020 13:10:28 INFO - Spring Data repositories initialized!
+12-Jul-2020 13:10:28 INFO - Started ICricketApplication in 8.841 seconds (JVM running for 10.617)
+12-Jul-2020 13:10:29 ERROR - Service.NO_PLAYERS_IN_THIS_PAGE
+com.sujal.exception.SujalPlayerException: Service.NO_PLAYERS_IN_THIS_PAGE
+	at com.sujal.service.PlayerServiceImpl.getFirstSevenPlayers(PlayerServiceImpl.java:28) ~[classes/:?]
+	at com.sujal.service.PlayerServiceImpl$$FastClassBySpringCGLIB$$ba38e12.invoke(<generated>) ~[classes/:?]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771) ~[spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749) ~[spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:62) ~[spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749) ~[spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:367) [spring-tx-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:118) [spring-tx-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) [spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749) [spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95) [spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) [spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749) [spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691) [spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at com.sujal.service.PlayerServiceImpl$$EnhancerBySpringCGLIB$$460369ae.getFirstSevenPlayers(<generated>) [classes/:?]
+	at com.sujal.ICricketApplication.getFirstSevenPlayers(ICricketApplication.java:32) [classes/:?]
+	at com.sujal.ICricketApplication.run(ICricketApplication.java:27) [classes/:?]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:795) [spring-boot-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:779) [spring-boot-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:322) [spring-boot-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237) [spring-boot-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at com.sujal.ICricketApplication.main(ICricketApplication.java:23) [classes/:?]
+12-Jul-2020 13:24:39 INFO - Starting ICricketApplication on MYSHEC259041L with PID 66648 (C:\Users\sanath.shetty\Desktop\SpringDataWksp_Java11\ICricket_Impl\target\classes started by Sanath.Shetty in C:\Users\sanath.shetty\Desktop\SpringDataWksp_Java11\ICricket_Impl)
+12-Jul-2020 13:24:39 INFO - No active profile set, falling back to default profiles: default
+12-Jul-2020 13:24:41 INFO - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+12-Jul-2020 13:24:41 INFO - Finished Spring Data repository scanning in 160ms. Found 1 JPA repository interfaces.
+12-Jul-2020 13:24:42 INFO - Initializing ExecutorService 'applicationTaskExecutor'
+12-Jul-2020 13:24:42 INFO - HikariPool-1 - Starting...
+12-Jul-2020 13:24:44 INFO - HikariPool-1 - Start completed.
+12-Jul-2020 13:24:44 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+12-Jul-2020 13:24:44 INFO - HHH000412: Hibernate ORM core version 5.4.17.Final
+12-Jul-2020 13:24:45 INFO - Triggering deferred initialization of Spring Data repositories…
+12-Jul-2020 13:24:45 INFO - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+12-Jul-2020 13:24:45 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+12-Jul-2020 13:24:47 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+12-Jul-2020 13:24:47 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+12-Jul-2020 13:24:48 INFO - Spring Data repositories initialized!
+12-Jul-2020 13:24:48 INFO - Started ICricketApplication in 8.915 seconds (JVM running for 10.721)
+12-Jul-2020 13:24:48 ERROR - Service.NO_PLAYERS_IN_THIS_PAGE
+com.sujal.exception.SujalPlayerException: Service.NO_PLAYERS_IN_THIS_PAGE
+	at com.sujal.service.PlayerServiceImpl.getFirstSevenPlayers(PlayerServiceImpl.java:28) ~[classes/:?]
+	at com.sujal.service.PlayerServiceImpl$$FastClassBySpringCGLIB$$ba38e12.invoke(<generated>) ~[classes/:?]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771) ~[spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749) ~[spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:62) ~[spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749) ~[spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:367) [spring-tx-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:118) [spring-tx-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) [spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749) [spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95) [spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) [spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749) [spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691) [spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at com.sujal.service.PlayerServiceImpl$$EnhancerBySpringCGLIB$$eebf65c1.getFirstSevenPlayers(<generated>) [classes/:?]
+	at com.sujal.ICricketApplication.getFirstSevenPlayers(ICricketApplication.java:32) [classes/:?]
+	at com.sujal.ICricketApplication.run(ICricketApplication.java:27) [classes/:?]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:795) [spring-boot-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:779) [spring-boot-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:322) [spring-boot-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237) [spring-boot-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at com.sujal.ICricketApplication.main(ICricketApplication.java:23) [classes/:?]
+12-Jul-2020 13:25:19 INFO - Starting ICricketApplication on MYSHEC259041L with PID 67848 (C:\Users\sanath.shetty\Desktop\SpringDataWksp_Java11\ICricket_Impl\target\classes started by Sanath.Shetty in C:\Users\sanath.shetty\Desktop\SpringDataWksp_Java11\ICricket_Impl)
+12-Jul-2020 13:25:19 INFO - No active profile set, falling back to default profiles: default
+12-Jul-2020 13:25:21 INFO - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+12-Jul-2020 13:25:21 INFO - Finished Spring Data repository scanning in 177ms. Found 1 JPA repository interfaces.
+12-Jul-2020 13:25:22 INFO - Initializing ExecutorService 'applicationTaskExecutor'
+12-Jul-2020 13:25:22 INFO - HikariPool-1 - Starting...
+12-Jul-2020 13:25:24 INFO - HikariPool-1 - Start completed.
+12-Jul-2020 13:25:24 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+12-Jul-2020 13:25:24 INFO - HHH000412: Hibernate ORM core version 5.4.17.Final
+12-Jul-2020 13:25:24 INFO - Triggering deferred initialization of Spring Data repositories…
+12-Jul-2020 13:25:25 INFO - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+12-Jul-2020 13:25:25 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+12-Jul-2020 13:25:27 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+12-Jul-2020 13:25:27 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+12-Jul-2020 13:25:27 INFO - Spring Data repositories initialized!
+12-Jul-2020 13:25:27 INFO - Started ICricketApplication in 8.874 seconds (JVM running for 10.906)
+12-Jul-2020 13:35:55 INFO - Starting ICricketApplication on MYSHEC259041L with PID 67260 (C:\Users\sanath.shetty\Desktop\SpringDataWksp_Java11\ICricket_Impl\target\classes started by Sanath.Shetty in C:\Users\sanath.shetty\Desktop\SpringDataWksp_Java11\ICricket_Impl)
+12-Jul-2020 13:35:55 INFO - No active profile set, falling back to default profiles: default
+12-Jul-2020 13:35:56 INFO - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+12-Jul-2020 13:35:56 INFO - Finished Spring Data repository scanning in 154ms. Found 1 JPA repository interfaces.
+12-Jul-2020 13:35:58 INFO - Initializing ExecutorService 'applicationTaskExecutor'
+12-Jul-2020 13:35:58 INFO - HikariPool-1 - Starting...
+12-Jul-2020 13:35:59 INFO - HikariPool-1 - Start completed.
+12-Jul-2020 13:35:59 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+12-Jul-2020 13:36:00 INFO - HHH000412: Hibernate ORM core version 5.4.17.Final
+12-Jul-2020 13:36:00 INFO - Triggering deferred initialization of Spring Data repositories…
+12-Jul-2020 13:36:00 INFO - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+12-Jul-2020 13:36:01 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+12-Jul-2020 13:36:02 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+12-Jul-2020 13:36:02 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+12-Jul-2020 13:36:03 INFO - Spring Data repositories initialized!
+12-Jul-2020 13:36:03 INFO - Started ICricketApplication in 19.159 seconds (JVM running for 21.139)
+12-Jul-2020 13:36:04 ERROR - No property transactionDate found for type Player!
+org.springframework.data.mapping.PropertyReferenceException: No property transactionDate found for type Player!
+	at org.springframework.data.mapping.PropertyPath.<init>(PropertyPath.java:94) ~[spring-data-commons-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:382) ~[spring-data-commons-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:358) ~[spring-data-commons-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.data.mapping.PropertyPath.lambda$from$0(PropertyPath.java:311) ~[spring-data-commons-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at java.util.concurrent.ConcurrentMap.computeIfAbsent(ConcurrentMap.java:330) ~[?:?]
+	at org.springframework.data.mapping.PropertyPath.from(PropertyPath.java:293) ~[spring-data-commons-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.data.mapping.PropertyPath.from(PropertyPath.java:276) ~[spring-data-commons-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.data.jpa.repository.query.QueryUtils.toJpaOrder(QueryUtils.java:607) ~[spring-data-jpa-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.data.jpa.repository.query.QueryUtils.toOrders(QueryUtils.java:560) ~[spring-data-jpa-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.getQuery(SimpleJpaRepository.java:697) ~[spring-data-jpa-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.getQuery(SimpleJpaRepository.java:677) ~[spring-data-jpa-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.findAll(SimpleJpaRepository.java:396) ~[spring-data-jpa-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.findAll(SimpleJpaRepository.java:78) ~[spring-data-jpa-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.data.repository.core.support.ImplementationInvocationMetadata.invoke(ImplementationInvocationMetadata.java:72) ~[spring-data-commons-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:382) ~[spring-data-commons-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:205) ~[spring-data-commons-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:549) ~[spring-data-commons-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:155) ~[spring-data-commons-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:130) ~[spring-data-commons-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:367) ~[spring-tx-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:118) ~[spring-tx-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139) ~[spring-tx-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:178) ~[spring-data-jpa-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95) ~[spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212) ~[spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at com.sun.proxy.$Proxy94.findAll(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344) ~[spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:205) ~[spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at com.sun.proxy.$Proxy68.findAll(Unknown Source) ~[?:?]
+	at com.sujal.service.PlayerServiceImpl.getAllPlayersSortedByRanking(PlayerServiceImpl.java:58) ~[classes/:?]
+	at com.sujal.service.PlayerServiceImpl$$FastClassBySpringCGLIB$$ba38e12.invoke(<generated>) ~[classes/:?]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771) ~[spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749) ~[spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:62) ~[spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749) ~[spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:367) [spring-tx-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:118) [spring-tx-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) [spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749) [spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95) [spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) [spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749) [spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691) [spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at com.sujal.service.PlayerServiceImpl$$EnhancerBySpringCGLIB$$6634451c.getAllPlayersSortedByRanking(<generated>) [classes/:?]
+	at com.sujal.ICricketApplication.getAllPlayersSortedByRanking(ICricketApplication.java:56) [classes/:?]
+	at com.sujal.ICricketApplication.run(ICricketApplication.java:30) [classes/:?]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:795) [spring-boot-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:779) [spring-boot-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:322) [spring-boot-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237) [spring-boot-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at com.sujal.ICricketApplication.main(ICricketApplication.java:24) [classes/:?]
+12-Jul-2020 13:38:05 INFO - Starting ICricketApplication on MYSHEC259041L with PID 69740 (C:\Users\sanath.shetty\Desktop\SpringDataWksp_Java11\ICricket_Impl\target\classes started by Sanath.Shetty in C:\Users\sanath.shetty\Desktop\SpringDataWksp_Java11\ICricket_Impl)
+12-Jul-2020 13:38:05 INFO - No active profile set, falling back to default profiles: default
+12-Jul-2020 13:38:06 INFO - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+12-Jul-2020 13:38:06 INFO - Finished Spring Data repository scanning in 168ms. Found 1 JPA repository interfaces.
+12-Jul-2020 13:38:08 INFO - Initializing ExecutorService 'applicationTaskExecutor'
+12-Jul-2020 13:38:08 INFO - HikariPool-1 - Starting...
+12-Jul-2020 13:38:09 INFO - HikariPool-1 - Start completed.
+12-Jul-2020 13:38:09 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+12-Jul-2020 13:38:10 INFO - HHH000412: Hibernate ORM core version 5.4.17.Final
+12-Jul-2020 13:38:10 INFO - Triggering deferred initialization of Spring Data repositories…
+12-Jul-2020 13:38:10 INFO - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+12-Jul-2020 13:38:11 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+12-Jul-2020 13:38:12 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+12-Jul-2020 13:38:12 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+12-Jul-2020 13:38:13 INFO - Spring Data repositories initialized!
+12-Jul-2020 13:38:13 INFO - Started ICricketApplication in 9.303 seconds (JVM running for 11.389)
+12-Jul-2020 14:59:05 INFO - Starting ICricketApplication on MYSHEC259041L with PID 77560 (C:\Users\sanath.shetty\Desktop\SpringDataWksp_Java11\ICricket_Impl\target\classes started by Sanath.Shetty in C:\Users\sanath.shetty\Desktop\SpringDataWksp_Java11\ICricket_Impl)
+12-Jul-2020 14:59:05 INFO - No active profile set, falling back to default profiles: default
+12-Jul-2020 14:59:06 INFO - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+12-Jul-2020 14:59:06 INFO - Finished Spring Data repository scanning in 80ms. Found 1 JPA repository interfaces.
+12-Jul-2020 14:59:07 INFO - Initializing ExecutorService 'applicationTaskExecutor'
+12-Jul-2020 14:59:07 INFO - HikariPool-1 - Starting...
+12-Jul-2020 14:59:08 INFO - HikariPool-1 - Start completed.
+12-Jul-2020 14:59:08 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+12-Jul-2020 14:59:08 INFO - HHH000412: Hibernate ORM core version 5.4.17.Final
+12-Jul-2020 14:59:08 INFO - Triggering deferred initialization of Spring Data repositories…
+12-Jul-2020 14:59:09 INFO - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+12-Jul-2020 14:59:09 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+12-Jul-2020 14:59:10 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+12-Jul-2020 14:59:10 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+12-Jul-2020 14:59:10 INFO - Spring Data repositories initialized!
+12-Jul-2020 14:59:10 INFO - Started ICricketApplication in 5.159 seconds (JVM running for 6.251)
+12-Jul-2020 14:59:39 INFO - Starting ICricketApplication on MYSHEC259041L with PID 77820 (C:\Users\sanath.shetty\Desktop\SpringDataWksp_Java11\ICricket_Impl\target\classes started by Sanath.Shetty in C:\Users\sanath.shetty\Desktop\SpringDataWksp_Java11\ICricket_Impl)
+12-Jul-2020 14:59:39 INFO - No active profile set, falling back to default profiles: default
+12-Jul-2020 14:59:40 INFO - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+12-Jul-2020 14:59:40 INFO - Finished Spring Data repository scanning in 84ms. Found 1 JPA repository interfaces.
+12-Jul-2020 14:59:41 INFO - Initializing ExecutorService 'applicationTaskExecutor'
+12-Jul-2020 14:59:41 INFO - HikariPool-1 - Starting...
+12-Jul-2020 14:59:42 INFO - HikariPool-1 - Start completed.
+12-Jul-2020 14:59:42 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+12-Jul-2020 14:59:42 INFO - HHH000412: Hibernate ORM core version 5.4.17.Final
+12-Jul-2020 14:59:42 INFO - Triggering deferred initialization of Spring Data repositories…
+12-Jul-2020 14:59:42 INFO - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+12-Jul-2020 14:59:43 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+12-Jul-2020 14:59:43 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+12-Jul-2020 14:59:43 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+12-Jul-2020 14:59:44 INFO - Spring Data repositories initialized!
+12-Jul-2020 14:59:44 INFO - Started ICricketApplication in 5.065 seconds (JVM running for 6.191)
