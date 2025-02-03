@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="IBook_ToTrainee">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/IBook_ToTrainee/.mvn/wrapper" />
+    </SOURCES>
+  </library>
+</component>
