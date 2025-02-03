@@ -1,9 +1,9 @@
 package com.sujal.exception;
 
-public class sujalMovieException extends Exception {
+public class SujalMovieException extends Exception {
 	private static final long serialVersionUID = 1L;
 
-	public sujalMovieException(String message) {
+	public SujalMovieException(String message) {
 		super(message);
 	}
 }
